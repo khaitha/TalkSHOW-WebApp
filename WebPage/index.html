@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Recording and Video Display</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">TalkShow</div>
+        <nav class="nav">
+            <a href="home.html">Home</a>
+            <a href="index.html" class="active">TalkShow Demo</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Video Section -->
+        <div class="video-section">
+            <h2>Video Display</h2>
+            <video id="videoPlayer" controls style="display: none;">
+                <source src="" type="video/mp4" id="videoSource">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Audio Sections -->
+        <div class="audio-sections">
+            <!-- Record Section -->
+            <div class="record-section">
+                <h2>Record Your Voice and Then Download</h2>
+                <button id="startStopBtn">Start Recording</button>
+                <audio id="audioPlayback" controls></audio>
+            </div>
+
+            <!-- Upload Section -->
+            <div class="upload-section">
+                <h2>Upload an Audio File (Wave Files only)</h2>
+                <form id="audio-upload-form">
+                    <input type="file" id="audioFile" accept="audio/wav" required>
+                    <button type="submit">Upload Audio</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Process Audio Button -->
+        <div class="process-section">
+            <h2>Process the Audio</h2>
+            <button id="processBtn">Process Audio</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <p>&copy; 2024 TalkShow Demo. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/master/dist/recorder.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wav-encoder@1.0.4/wav-encoder.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ffmpeg.js/4.4.0/ffmpeg.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

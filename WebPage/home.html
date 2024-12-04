@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Media Hub</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ffmpeg.js/4.4.0/ffmpeg.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">TalkShow</div>
+        <nav class="nav">
+            <a href="home.html" class="active">Home</a>
+            <a href="index.html">TalkShow Demo</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to TalkShow Demo</h1>
+            <p>Your one-stop solution for turning audio files to videos</p>
+            <a href="index.html" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- New Section: What is TalkShow -->
+    <section class="about-talkshow">
+        <h2>What is TalkShow?</h2>
+        <p>This work focuses on generating 3D holistic body motions from human speech, synthesizing realistic body poses, hand gestures, and facial expressions from speech recordings. A high-quality dataset of 3D body meshes synchronized with speech is created to train the system. The approach separates modeling for the face, body, and hands, as face articulation is strongly linked to speech, while body and hand motions are less correlated. An autoencoder is used for facial motions, while a compositional vector-quantized variational autoencoder (VQ-VAE) generates body and hand motions. A cross-conditional autoregressive model ensures coherence in generated motions. Extensive experiments and user studies show that the proposed method achieves state-of-the-art performance, and the dataset and code will be available for research.</p>
+    </section>
+
+    <section class="features" id="about">
+        <h2>Features</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <h3>Video Display</h3>
+                <p>Upload and watch videos with ease using our built-in player.</p>
+            </div>
+            <div class="card">
+                <h3>Audio Recording</h3>
+                <p>Record your voice and download it instantly in high quality.</p>
+            </div>
+            <div class="card">
+                <h3>Audio Upload</h3>
+                <p>Upload and play WAV files directly from your device.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <p>&copy; 2024 TalkShow Demo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
