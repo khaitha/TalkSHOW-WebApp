@@ -8,3 +8,5 @@ Steps to sucessfully use this code:
 - From this repository, move the server.py into TalkSHOW/file-here
 - Now run the server.py via the Ubuntu Terminal: python server.py
 - And then on your local IDE run the web-app and the code should be functioning.
+- 
+https://github.com/user-attachments/assets/33e4f3bb-7a0e-42db-ae38-82d281739704
