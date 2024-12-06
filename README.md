@@ -1,6 +1,8 @@
 # TalkSHOW-WebApp
  This is a Front-End and Back-End implementation for the TalkSHOW GitHub to allow a user interface for live interaction.
+ 
 Credits to the original author: https://github.com/yhw-yhw/TalkSHOW
+
 Steps to sucessfully use this code:
 - Since this repository had issues running on the Windows terminals. I ran this on Ubuntu 22.04.05 LTS. You can install this on Windows APP.
 - After installing the Ubuntu. Clone this GitHub repository.
